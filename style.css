@@ -709,6 +709,13 @@ h2 {
     line-height: 1.4em;
 }
 
+.col-sm-12.text-center h2 {
+    margin-inline: auto;
+	width: 60%;
+	min-width: 320px;
+}
+
+
 h3 {
     font-size: 15px;
     text-transform: uppercase;
