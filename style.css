@@ -91,7 +91,7 @@ a:hover {
 }
 
 .texture-paper::before {
-    background: url("img/texture-paper.png");
+    /* background: url("img/texture-paper.png"); */
     background-size: 280px 280px;
 }
 
@@ -677,7 +677,7 @@ a {
 }
 
 p {
-    font-size: 11px;
+    font-size: 16px;
 }
 
 .tight-width-whitespace {
@@ -743,7 +743,7 @@ h4 {
 }
 
 .white {
-    color: #FFFFFF!important;
+    /* color: #FFFFFF!important; */
 }
 
 .portfolio-thumb {
@@ -760,7 +760,7 @@ h4 {
 }
 
 .black-background {
-    background-color: rgba(165, 147, 99, 0.7);
+    background-color: white;
     padding: 40px 40px 40px 40px;
 }
 
@@ -796,11 +796,12 @@ h4 {
 }
 
 .ltc-white {
-    color: #FFFFFF!important;
+    /* color: #FFFFFF!important; */
 }
 
 .ltc-white:hover {
-    color: #cccccc!important;
+    /* color: #cccccc!important; */
+    text-shadow: 0px 1px 1px #F3976C;
 }
 
 .ltc-atomic-tangerine {
@@ -821,7 +822,7 @@ h4 {
 }
 
 .bg-lines-h2-bg {
-    background-image: url("img/lines-h2-bg.png");
+    /* background-image: url("img/lines-h2-bg.png"); */
 }
 
 .bg-banniere {
@@ -829,7 +830,7 @@ h4 {
 }
 
 .bg-presentation {
-    background-image: url("img/image-de-presentation.bmp");
+    background-image: url("img/image-de-presentation.png");
 }
 
 @media (max-width: 1024px) {
@@ -1046,4 +1047,8 @@ h4 {
     .bloc-mob-center-text {
         text-align: center;
     }
+}
+
+a {
+    size: 12px !important;
 }
