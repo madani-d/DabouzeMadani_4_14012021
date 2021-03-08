@@ -1042,6 +1042,14 @@ h4 {
     .bloc-mob-center-text {
         text-align: center;
     }
+
+    .bg-presentation {
+        background-image: url("img/image-de-presentation-small.jpg");
+    }
+
+    .bg-banniere {
+        background-image: url("img/la-chouette-agence-banniere-small.jpg");
+    }
 }
 
 a:focus {
@@ -1085,7 +1093,7 @@ button:focus {
     width: fit-content;
     margin: 0 auto;
     padding: 0 15px;
-    
+
 }
 
 
